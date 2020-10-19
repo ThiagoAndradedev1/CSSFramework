@@ -1,0 +1,26 @@
+{
+  "name": "styled-css-framework-react",
+  "version": "1.0.3",
+  "description": "A cool way of styling your React projects.",
+  "main": "index.js",
+  "dependencies": {
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoAndradedev1/CSSFramework.git"
+  },
+  "keywords": [
+    "components"
+  ],
+  "author": "Thiago Andrade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagoAndradedev1/CSSFramework/issues"
+  },
+  "homepage": "https://github.com/ThiagoAndradedev1/CSSFramework#readme"
+}
