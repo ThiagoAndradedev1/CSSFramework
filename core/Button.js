@@ -20,12 +20,32 @@ cursor: pointer;
   background-color: #f44336;
   `}
 
-  ${props => props.gray && css`
-  background-color: #e7e7e7;
+  ${props => props.purple && css`
+  background-color: #9400D3;
   `}
 
   ${props => props.black && css`
   background-color: #555555;
+  `}
+
+  ${props => props.pink && css`
+  background-color: #FF69B4;
+  `}
+  
+  ${props => props.brown && css`
+  background-color: #A0522D;
+  `}
+
+  ${props => props.blue && css`
+  background-color: #2185d0;
+  `}
+
+  ${props => props.orange && css`
+  background-color: #f2711c;
+  `}
+
+  ${props => props.yellow && css`
+  background-color: #fbbd08;
   `}
 `;
 
