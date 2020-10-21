@@ -24,7 +24,7 @@ cursor: pointer;
   background-color: #9400D3;
   `}
 
-  ${props => props.black && css`
+  ${props => props.gray && css`
   background-color: #555555;
   `}
 
@@ -36,8 +36,8 @@ cursor: pointer;
   background-color: #A0522D;
   `}
 
-  ${props => props.blue && css`
-  background-color: #2185d0;
+  ${props => props.black && css`
+  background-color: #1b1c1d;
   `}
 
   ${props => props.orange && css`
