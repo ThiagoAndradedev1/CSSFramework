@@ -8,4 +8,4 @@ const Container = styled.div`
   }
 `;
 
-module.exports.Container = Container;;
+export default Container;
