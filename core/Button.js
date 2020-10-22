@@ -49,4 +49,4 @@ cursor: pointer;
   `}
 `;
 
-module.exports.Button = Button;
+export default Button;
