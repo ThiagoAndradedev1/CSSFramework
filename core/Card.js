@@ -1,10 +1,15 @@
-import styled, { css } from "styled-components";
+import styled from 'styled-components';
 
 const Card = styled.div`
-box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-background-color: #fff;
-padding-top: 30px;
-padding-bottom: 30px;
+  display: flex;
+  width: 100px;
+  height: 150px;
+  border: 3px solid ${props => props.color};
+  border-radius: 15px;
+  justify-content: space-around;
+  font-size: 5em;
+  color: ${props => props.color};
 `;
+
 
 export default Card;

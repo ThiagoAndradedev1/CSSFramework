@@ -16,6 +16,10 @@ cursor: pointer;
   background-color: #008CBA;
   `}
 
+  ${props => props.blue && css`
+  background-color: #008CBA;
+  `}
+
   ${props => props.red && css`
   background-color: #f44336;
   `}
