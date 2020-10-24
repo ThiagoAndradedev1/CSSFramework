@@ -274,7 +274,7 @@ export default CardComponent
 
 - gray
 
-# Built with
+# ⛏️ Built with
 
 <p align="center">
   <img width="360" height="200" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg">
@@ -282,3 +282,7 @@ export default CardComponent
 <p align="center">
   <img width="360" height="200" src="https://miro.medium.com/max/1024/1*2TqPNtQcP2Wk6PN2vxtoaA.png">
 </p>
+
+# ✍️ Author <a name = "autores"></a>
+
+- [@ThiagoAndradedev1](https://github.com/ThiagoAndradedev1) - Ideia & Trabalho inicial
