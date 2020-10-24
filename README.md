@@ -5,7 +5,11 @@
   <img width="360" height="200" src="https://miro.medium.com/max/1024/1*2TqPNtQcP2Wk6PN2vxtoaA.png">
 </p>
 
-# What is this ?
+# 🔥 Access our website to see all components.
+
+<a href="https://musing-sammet-e4defb.netlify.app/">Access here !</a>
+
+# 📖 What is this ?
 
 I built this react component library to improve my skills on npm and styled components. Feel free to use any of the components in your personal projects.
 
@@ -202,9 +206,9 @@ const SpinnerComponent = () => {
     return (
         <div>
         <Loader />
-        <Loader blue style={{ marginTop: "15px" }}/>
-        <Loader yellow style={{ marginTop: "15px" }}/>
-        <Loader green style={{ marginTop: "15px" }}/>
+        <Loader blue />
+        <Loader yellow />
+        <Loader green />
         </div>
     )
 }
@@ -264,7 +268,7 @@ const CardComponent = () => {
     return (
         <div>
         <Card>Standard Card</Card>
-        <Card style={{ marginTop: "25px" }} gray>Gray Card</Card>    
+        <Card gray>Gray Card</Card>    
         </div>
     )
 }
