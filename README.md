@@ -1,10 +1,3 @@
-<p align="center">
-  <img width="360" height="200" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg">
-</p>
-<p align="center">
-  <img width="360" height="200" src="https://miro.medium.com/max/1024/1*2TqPNtQcP2Wk6PN2vxtoaA.png">
-</p>
-
 # 🔥 Access our website to see all components.
 
 <a href="https://musing-sammet-e4defb.netlify.app/">Access here!</a>
@@ -280,3 +273,12 @@ export default CardComponent
 # Card Properties
 
 - gray
+
+# Built with
+
+<p align="center">
+  <img width="360" height="200" src="https://upload.wikimedia.org/wikipedia/commons/d/db/Npm-logo.svg">
+</p>
+<p align="center">
+  <img width="360" height="200" src="https://miro.medium.com/max/1024/1*2TqPNtQcP2Wk6PN2vxtoaA.png">
+</p>
