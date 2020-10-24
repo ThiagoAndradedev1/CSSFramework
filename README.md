@@ -276,3 +276,7 @@ const CardComponent = () => {
 export default CardComponent
 
 ```
+
+# Card Properties
+
+- gray
