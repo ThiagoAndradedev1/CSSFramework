@@ -25,9 +25,17 @@ const Image = styled.img`
     `}
 
     ${props => props.large && css`
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     `}
+
+    @media(max-width: 768px) {
+        width: 300px;
+        height: 300px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-left: 0px;
+      }
 `;
 
 

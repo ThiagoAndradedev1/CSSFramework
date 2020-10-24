@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled, { keyframes, css } from "styled-components";
 
 const rotate360 = keyframes`
   from {
@@ -22,11 +22,21 @@ const Spinner = styled.div`
   border-radius: 50%;
 
   ${props => props.blue && css`
-  background-color: #008CBA;
+  border-top: 2px solid blue;
+  border-right: 2px solid blue;
+  border-bottom: 2px solid blue;
   `}
 
-  ${props => props.red && css`
-  background-color: #f44336;
+  ${props => props.yellow && css`
+  border-top: 2px solid yellow;
+  border-right: 2px solid yellow;
+  border-bottom: 2px solid yellow;
+  `}
+
+  ${props => props.green && css`
+  border-top: 2px solid green;
+  border-right: 2px solid green;
+  border-bottom: 2px solid green;
   `}
 `;
 

@@ -51,6 +51,10 @@ cursor: pointer;
   ${props => props.yellow && css`
   background-color: #fbbd08;
   `}
+
+  ${props => props.fluid && css`
+   width: 100%
+  `}
 `;
 
 export default Button;
