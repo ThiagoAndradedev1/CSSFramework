@@ -17,9 +17,8 @@ import React from 'react';
 import Button from "styled-css-framework-react/core/Button";
 
 const ButtonComponent = () => {
-    return (    
+    return (
         <div>
-        <Card>
         <Button pink>Hello World</Button>
         <Button brown>Hello World</Button>
         <Button>Hello World</Button>
@@ -38,6 +37,7 @@ const ButtonComponent = () => {
 export default ButtonComponent
 
 ```
+
 # Button Properties
 
 - pink
@@ -60,11 +60,11 @@ import Container from 'styled-css-framework-react/core/Container';
 const ContainerComponent = () => {
     return (
         <div>
-        <Container>     
+        <Container>
         <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo repudiandae possimus qui quas. Non quasi aspernatur consequuntur praesentium veritatis nobis dolorem quis,         harum illum fuga nihil dicta voluptas magni quos.
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo repudiandae possimus qui quas. Non quasi aspernatur consequuntur praesentium veritatis nobis dolorem quis,         harum illum fuga nihil dicta voluptas magni quos.
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo repudiandae possimus qui quas. Non quasi aspernatur consequuntur praesentium veritatis nobis dolorem quis,         harum illum fuga nihil dicta voluptas magni quos.   
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo repudiandae possimus qui quas. Non quasi aspernatur consequuntur praesentium veritatis nobis dolorem quis,         harum illum fuga nihil dicta voluptas magni quos.
         </p>
         </Container>
         </div>
@@ -82,8 +82,8 @@ import React from 'react';
 import Divider from "styled-css-framework-react/core/Divider";
 
 const DividerComponent = () => {
-    return (    
-        <div> 
+    return (
+        <div>
         <Divider />
         <Divider dotted/>
         <Divider solid/>
@@ -95,6 +95,7 @@ const DividerComponent = () => {
 export default DividerComponent;
 
 ```
+
 # Divider Properties
 
 - dotted
@@ -108,7 +109,7 @@ import React from 'react';
 import Image from "styled-css-framework-react/core/Images";
 
 const ImageComponent = () => {
-    return (    
+    return (
         <div>
          <Image src={'https://cdn.meutimao.com.br/_upload/noticia/2020/10/22/mantuan-marca-o-primeiro-gol-do-corinthians-na_j1941w.jpg'} />
          <Image rounded src={'https://cdn.meutimao.com.br/_upload/noticia/2020/10/22/mantuan-marca-o-primeiro-gol-do-corinthians-na_j1941w.jpg'} />
@@ -117,13 +118,13 @@ const ImageComponent = () => {
          <Image big src={'https://cdn.meutimao.com.br/_upload/noticia/2020/10/22/mantuan-marca-o-primeiro-gol-do-corinthians-na_j1941w.jpg'} />
          <Image large src={'https://cdn.meutimao.com.br/_upload/noticia/2020/10/22/mantuan-marca-o-primeiro-gol-do-corinthians-na_j1941w.jpg'} />
          </div>
-        </div>
     )
 }
 
 export default ImageComponent
 
 ```
+
 # Image Properties
 
 - rounded
@@ -139,7 +140,7 @@ import React from 'react';
 import Input from "styled-css-framework-react/core/Input";
 
 const InputComponent = () => {
-    return (    
+    return (
          <div>
            <Input small placeholder="SMALL INPUT"/>
            <Input medium placeholder="MEDIUM INPUT"/>
@@ -153,6 +154,7 @@ const InputComponent = () => {
 export default InputComponent;
 
 ```
+
 # Input Properties
 
 - small
@@ -168,13 +170,13 @@ import React from 'react';
 import Alert from "styled-css-framework-react/core/Alerts";
 
 const AlertComponent = () => {
-    return (    
+    return (
         <div>
         <Alert>Standard ! This is a standard alert.</Alert>
         <Alert danger>Danger! Indicates a dangerous or potentially negative action.</Alert>
         <Alert success>Success! Indicates a successful or positive action.</Alert>
         <Alert info>Info! Indicates a neutral informative change or action.</Alert>
-        <Alert warning>Warning! Indicates a warning that might need attention.</Alert> 
+        <Alert warning>Warning! Indicates a warning that might need attention.</Alert>
         </div>
     )
 }
@@ -182,6 +184,7 @@ const AlertComponent = () => {
 export default AlertComponent;
 
 ```
+
 # Alert Properties
 
 - danger
@@ -209,6 +212,7 @@ const SpinnerComponent = () => {
 export default SpinnerComponent;
 
 ```
+
 # Loader Properties
 
 - blue
@@ -226,22 +230,22 @@ import FormField from 'styled-css-framework-react/core/FormField';
 import Button from 'styled-css-framework-react/core/Button';
 
 const FormComponent = () => {
-    return (    
+    return (
         <div>
          <Form>
          <FormField>
-           <Label>First Name</Label>   
+           <Label>First Name</Label>
            <Input fluid placeholder="BIG INPUT"/>
          </FormField>
          <FormField>
-           <Label>Last Name</Label>   
-           <Input fluid placeholder="BIG INPUT"/>   
-         </FormField>  
+           <Label>Last Name</Label>
+           <Input fluid placeholder="BIG INPUT"/>
+         </FormField>
          <FormField>
-           <Label>Password</Label>   
-           <Input fluid placeholder="BIG INPUT"/>       
-         </FormField>  
-         <Button gray fluid>Submit</Button>   
+           <Label>Password</Label>
+           <Input fluid placeholder="BIG INPUT"/>
+         </FormField>
+         <Button gray fluid>Submit</Button>
          </Form>
         </div>
     )
@@ -261,7 +265,7 @@ const CardComponent = () => {
     return (
         <div>
         <Card>Standard Card</Card>
-        <Card gray>Gray Card</Card>    
+        <Card gray>Gray Card</Card>
         </div>
     )
 }
