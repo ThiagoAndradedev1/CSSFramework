@@ -1,6 +1,6 @@
 {
   "name": "styled-css-framework-react",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "A cool way of styling your React projects.",
   "main": "index.js",
   "dependencies": {
